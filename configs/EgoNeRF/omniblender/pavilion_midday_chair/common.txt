@@ -1,0 +1,11 @@
+include = ../common_outdoor.txt
+
+datadir = ./data/OmniBlender/pavilion_midday_chair
+basedir = ./log/EgoNeRF/OmniBlender/pavilion_midday_chair
+
+near_far = [0.1, 50]
+
+use_envmap
+envmap_res_H = 1000
+
+iter_pretrain_envmap = 10000

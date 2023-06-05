@@ -1,0 +1,8 @@
+include = ./common.txt
+expname = EgoNeRF
+
+TV_weight_density = 0
+TV_weight_app = 0.
+
+L1_weight_initial = 0.
+L1_weight_rest = 0.

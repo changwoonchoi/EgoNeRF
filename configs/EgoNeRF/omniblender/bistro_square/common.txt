@@ -1,0 +1,11 @@
+include = ../common_outdoor.txt
+
+datadir = ./data/OmniBlender/bistro_square
+basedir = ./log/EgoNeRF/OmniBlender/bistro_square
+
+near_far = [0.1, 300]
+
+use_envmap
+envmap_res_H = 1000
+
+iter_pretrain_envmap = 10000

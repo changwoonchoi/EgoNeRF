@@ -1,0 +1,7 @@
+include = ../common.txt
+
+datadir = ./data/Ricoh360/flower
+basedir = ./log/EgoNeRF/Ricoh360/flower
+
+use_envmap
+iter_pretrain_envmap = -1

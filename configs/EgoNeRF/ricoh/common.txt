@@ -1,0 +1,16 @@
+include = ../common.txt
+
+dataset_name = egocentric
+
+near_far = [0.1, 300.0]
+
+downsample_test = 1.0
+downsample_train = 1.0
+
+envmap_res_H = 1920
+
+TV_weight_density = 0.1
+TV_weight_app = 0.01
+
+L1_weight_initial = 0
+L1_weight_rest = 0

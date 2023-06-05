@@ -1,0 +1,7 @@
+include = ../common.txt
+
+datadir = ./data/Ricoh360/cat_tower
+basedir = ./log/EgoNeRF/Ricoh360/cat_tower
+
+use_envmap
+iter_pretrain_envmap = -1

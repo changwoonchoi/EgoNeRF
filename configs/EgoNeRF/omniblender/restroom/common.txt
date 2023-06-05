@@ -1,0 +1,4 @@
+include = ../common_indoor.txt
+
+datadir = ./data/OmniBlender/restroom
+basedir = ./log/EgoNeRF/OmniBlender/restroom

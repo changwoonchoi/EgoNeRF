@@ -1,0 +1,7 @@
+include = ../common.txt
+
+datadir = ./data/Ricoh360/bricks
+basedir = ./log/EgoNeRF/Ricoh360/bricks
+
+use_envmap
+iter_pretrain_envmap = -1

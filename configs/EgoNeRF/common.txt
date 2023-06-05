@@ -1,0 +1,44 @@
+
+coordinates = yinyang
+model_name = EgoNeRF
+exp_sampling = True
+
+n_iters = 100000
+batch_size = 4096
+lr_init = 0.02
+
+N_voxel_init = 27000000 # 300**3
+N_voxel_final = 27000000 # 300**3
+upsamp_list = [1000000000000000]
+update_AlphaMask_list = [10000000000000]
+
+interval_th
+r0 = 0.05
+
+resampling
+use_coarse_sample
+coarse_sigma_grid_update_rule = conv
+
+n_coarse = 128
+n_fine = 128
+
+downsample_train = 1
+downsample_test = 1
+
+N_vis = -1
+vis_list = [10000, 50000, 100000]
+
+n_lamb_sigma = [16,16,16]
+n_lamb_sh = [48,48,48]
+
+shadingMode = MLP_Fea
+fea2denseAct = softplus
+
+pos_pe = 6
+view_pe = 2
+fea_pe = 2
+
+sparsity_lambda=0
+sampling_method = simple
+
+roi = [0., 1., 0., 1.]

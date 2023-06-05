@@ -1,0 +1,7 @@
+include = ../common.txt
+
+datadir = ./data/Ricoh360/gallery_chair
+basedir = ./log/EgoNeRF/Ricoh360/gallery_chair
+
+use_envmap
+iter_pretrain_envmap = -1

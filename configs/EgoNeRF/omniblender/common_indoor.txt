@@ -1,0 +1,9 @@
+include = ../common.txt
+
+dataset_name = omniblender
+
+# TODO: check density_shift value
+density_shift = -8
+r0 = 0.03
+
+near_far = [0.01, 15.]

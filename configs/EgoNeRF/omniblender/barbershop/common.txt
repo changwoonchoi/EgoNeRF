@@ -1,0 +1,4 @@
+include = ../common_indoor.txt
+
+datadir = ./data/OmniBlender/barbershop
+basedir = ./log/EgoNeRF/OmniBlender/barbershop

@@ -1,0 +1,7 @@
+include = ../common.txt
+
+datadir = ./data/Ricoh360/bridge
+basedir = ./log/EgoNeRF/Ricoh360/bridge
+
+use_envmap
+iter_pretrain_envmap = -1

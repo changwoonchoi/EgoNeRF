@@ -1,0 +1,11 @@
+include = ../common_outdoor.txt
+
+datadir = ./data/OmniBlender/LOU
+basedir = ./log/EgoNeRF/OmniBlender/LOU
+
+near_far = [0.01, 50]
+
+use_envmap
+envmap_res_H = 1000
+
+iter_pretrain_envmap = -1

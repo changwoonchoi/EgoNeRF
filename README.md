@@ -11,23 +11,35 @@ Official implementation of <b>Balanced Spherical Grid for Egocentric View Synthe
 EgoNeRF is a grid-based NeRF model that utilize a balanced spherical grid to reconstruct large-scale egocentric captured scenes. 
 ___
 
-<p align="center">Code will be released soon.</p>
 
-<!--
 ## Installation 
 ### Environment Setup
 We tested our code on Ubuntu 20.04 with RTX 3090 GPU. With proper version of CUDA toolkit, it would work on other environments.
 ```
-git clone https://github.com/changwoonchoi/EgoNeRF.git
-cd EgoNeRF
-chmod +x install.sh
-sh install.sh
+conda create -n EgoNeRF python=3.8
+conda activate EgoNeRF
+pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu113
+pip install -r requirements.txt
 ```
+
 ### Dataset
+We provide OmniBlender and Ricoh360 datset. You can download the dataset from the google drive link above. Put the data in the directory <span style="background-color: #D3D3D3">data/</span>
 
 ## Training EgoNeRF
 To train EgoNeRF, run the scripts below.
 ```
-python train.py --config configs/
+python train.py --config configs/omniblender/barbershop/default.txt
 ```
--->
+
+## Citation
+Cite as below if you find this paper and repository are helpful to you:
+```
+@InProceedings{Choi_2023_CVPR,
+    author    = {Choi, Changwoon and Kim, Sang Min and Kim, Young Min},
+    title     = {Balanced Spherical Grid for Egocentric View Synthesis},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {16590-16599}
+}
+```
