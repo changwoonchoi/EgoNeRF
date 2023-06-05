@@ -43,3 +43,6 @@ Cite as below if you find this paper and repository are helpful to you:
     pages     = {16590-16599}
 }
 ```
+
+## Acknowledgement
+This repository borrows codes from the amazing work [TensoRF](https://github.com/apchenstu/TensoRF).
