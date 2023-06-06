@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 
 ### Dataset
-We provide OmniBlender and Ricoh360 datset. You can download the dataset from the google drive link above. Put the data in the directory <span style="background-color: #D3D3D3">data/</span>
+We provide OmniBlender and Ricoh360 datset. You can download the dataset from the google drive link above. Put the data in the directory `data/`
 
 ## Training EgoNeRF
 To train EgoNeRF, run the scripts below.
